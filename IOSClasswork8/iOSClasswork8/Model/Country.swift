@@ -21,10 +21,9 @@ struct City{
     
     func remarkablePlaceImage () -> UIImage
     {
-        let remarkablePlaceName = "\(name) 1"
+        let remarkablePlaceName = "\(cardName)1"
         return UIImage(named: remarkablePlaceName)!
     }
-    
     
 }
 
@@ -36,3 +35,4 @@ var cities :[City] = [
     City(name: "لندن", cardName: "لندن"),
     City(name: "موسكو", cardName: "موسكو")
 ]
+

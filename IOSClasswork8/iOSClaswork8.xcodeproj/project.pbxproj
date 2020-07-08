@@ -17,6 +17,8 @@
 		046D4D8C2496008700120869 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D4D8A2496008700120869 /* Models.swift */; };
 		046D4D9924960F0E00120869 /* Assest.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046D4D9824960F0E00120869 /* Assest.xcassets */; };
 		046D4DA924974B4900120869 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D4DA824974B4900120869 /* Country.swift */; };
+		76E5F67624B61BB10012DF95 /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E5F67524B61BB10012DF95 /* CityCell.swift */; };
+		76E5F67824B61FC60012DF95 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E5F67724B61FC60012DF95 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		046D4D8A2496008700120869 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		046D4D9824960F0E00120869 /* Assest.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assest.xcassets; sourceTree = "<group>"; };
 		046D4DA824974B4900120869 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		76E5F67524B61BB10012DF95 /* CityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
+		76E5F67724B61FC60012DF95 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,7 @@
 		040FC8C72493287C00CC6A88 = {
 			isa = PBXGroup;
 			children = (
+				76E5F67724B61FC60012DF95 /* Default-568h@2x.png */,
 				040FC8D22493287C00CC6A88 /* iOSClasswork8 */,
 				040FC8D12493287C00CC6A88 /* Products */,
 			);
@@ -71,8 +76,8 @@
 				046D4D9F249657AF00120869 /* ViewController */,
 				046D4DA0249657C000120869 /* Storyboard */,
 				040FC8DE2493288200CC6A88 /* LaunchScreen.storyboard */,
-				040FC8E12493288200CC6A88 /* Info.plist */,
 				046D4D9824960F0E00120869 /* Assest.xcassets */,
+				040FC8E12493288200CC6A88 /* Info.plist */,
 			);
 			path = iOSClasswork8;
 			sourceTree = "<group>";
@@ -91,6 +96,7 @@
 			children = (
 				040FC8EB249331D600CC6A88 /* TableViewController.swift */,
 				046D4D872495822100120869 /* weatherDetails.swift */,
+				76E5F67524B61BB10012DF95 /* CityCell.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -170,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				040FC8E02493288200CC6A88 /* LaunchScreen.storyboard in Resources */,
+				76E5F67824B61FC60012DF95 /* Default-568h@2x.png in Resources */,
 				046D4D9924960F0E00120869 /* Assest.xcassets in Resources */,
 				040FC8DB2493287C00CC6A88 /* Main.storyboard in Resources */,
 			);
@@ -184,6 +191,7 @@
 			files = (
 				040FC8EC249331D600CC6A88 /* TableViewController.swift in Sources */,
 				040FC8D42493287C00CC6A88 /* AppDelegate.swift in Sources */,
+				76E5F67624B61BB10012DF95 /* CityCell.swift in Sources */,
 				046D4D8B2496008700120869 /* Networking.swift in Sources */,
 				046D4DA924974B4900120869 /* Country.swift in Sources */,
 				046D4D882495822100120869 /* weatherDetails.swift in Sources */,
@@ -334,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "/Users/mac/Documents/IOS2020/KuwaitCodes2/day_8/ios-cw-8/IOSClasswork8/iOSClasswork8/info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/iOSClasswork8/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -352,7 +360,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "/Users/mac/Documents/IOS2020/KuwaitCodes2/day_8/ios-cw-8/IOSClasswork8/iOSClasswork8/info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/iOSClasswork8/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -24,7 +24,9 @@ class weatherDetails: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-       getWeatherDetails()
+        getWeatherDetails()
+        remarkablePlaceImageVIew.image = city.remarkablePlaceImage()
+        cityName()
     }
     
     
@@ -39,15 +41,19 @@ class weatherDetails: UIViewController {
             
             let mintempK = forcast!.main.temp_min
             let mintempC = (mintempK - 272.15).rounded(.down)
-             self.minTemp.text = "\(mintempC)°C"
+            self.minTemp.text = "\(mintempC)°C"
             
             
             let maxtempK = forcast!.main.temp_max
             let maxtempC = (maxtempK - 272.15).rounded(.down)
             self.maxTemp.text = "\(maxtempC)°C"
-            
+                        
         }
     }
+    
+    func cityName() {
+        self.cityNameLabel.text = city.name
+       }
     
 }
 
